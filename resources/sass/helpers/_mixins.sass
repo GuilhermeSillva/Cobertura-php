@@ -1,0 +1,9 @@
+=m-box-shadow($property)
+  -webkit-box-shadow: $property
+  -moz-box-shadow: $property
+  box-shadow: $property
+
+=m-linear-gradient-vertical($colorFrom, $colorTo, $percentFrom, $percentTo)
+  background: -moz-linear-gradient(top, $colorFrom $percentFrom, $colorTo $percentTo)
+  background: -webkit-linear-gradient(top, $colorFrom $percentFrom, $colorTo $percentTo)
+  background: linear-gradient(to bottom, $colorFrom $percentFrom, $colorTo $percentTo)

@@ -1,0 +1,76 @@
+// Spaces
+$space: 8px;
+$space-1: $space;
+$space-2: $space * 2;
+$space-3: $space * 3;
+$space-4: $space * 4;
+$space-5: $space * 5;
+$space-6: $space * 6;
+$space-7: $space * 7;
+$space-8: $space * 8;
+$space-9: $space * 9;
+$space-10: $space * 10;
+
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: "Montserrat", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors// Colors
+$colors: (
+  // Theme
+  bg-primary: #FFFFFF,
+  primary: #2962FF,
+  secondary: #FFC107,
+
+  // Hilights
+  success: #69F0AE,
+  error: #FF5252,
+
+  // Grays
+  gray-1: #E0E0E0,
+  gray-2: #BDBDBD,
+  gray-3: #757575,
+  gray-4: #424242,
+);
+
+$white: #FFFFFF;
+$blue: #2962FF;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #FF5252;
+$orange: #f6993f;
+$yellow: #FFC107;
+$green: #69F0AE;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$color-bg-primary: map-get($map: $colors, $key: bg-primary);
+$color-primary: map-get($map: $colors, $key: primary);
+$color-secondary: map-get($map: $colors, $key: secondary);
+$color-gray-1: map-get($map: $colors, $key: gray-1);
+$color-gray-2: map-get($map: $colors, $key: gray-2);
+$color-gray-3: map-get($map: $colors, $key: gray-3);
+$color-gray-4: map-get($map: $colors, $key: gray-4);
+
+// Borders
+$border-thin: solid 1px $color-gray-1;
+$border-light: solid 2px $color-gray-1;
+$border-default: solid 1px $color-gray-2;
+
+// Shadows
+$shadow-color: rgba(0, 0, 0, .16);
+$shadow-color-max: rgba(0, 0, 0, .3);
+
+$shadow-up: 0 -1px 3px $shadow-color;
+$shadow-down: 0 2px 4px $shadow-color;
+$shadow-down-max: 0 2px 8px $shadow-color-max;
+
+// Breakpoints
+$screen-mobile-min: 320px;
+$screen-tablet-min: 768px;
+$screen-desktop-min: 992px;

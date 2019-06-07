@@ -1,0 +1,20 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+// Variables
+// @import 'variables';
+
+@import 'resources/sass/helpers/helpers';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'resources/sass/base/base';
+@import 'resources/sass/layout/layout';
+@import 'resources/sass/module/module';
+@import 'resources/sass/pages/pages';
+
+body{
+  font-family: $font-family-sans-serif;
+  //background-color: $body-bg;
+}

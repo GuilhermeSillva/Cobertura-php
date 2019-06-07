@@ -1,0 +1,31 @@
+.navbar-laravel 
+  background-color: #fff
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04)
+
+  .navbar-laravel-logo
+    display: none
+    @media(min-width: $screen-tablet-min)
+      display: block
+  
+  .navbar-laravel-button-menu
+    order: 1
+
+  .navbar-laravel-menu
+    @media(min-width: $screen-tablet-min)
+      order: 2
+
+  .navbar-laravel-searchbar
+    margin: 0 0 0 $space-3!important
+    order: 2
+    flex: 1
+
+    @media(min-width: $screen-tablet-min)
+      margin: 0 $space-3 0 $space-5!important
+      flex: inherit
+      order: 1
+    
+    .btn
+      display: flex
+      
+      i.material-icons
+        line-height: 0
